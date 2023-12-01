@@ -2,30 +2,30 @@ import Image from 'next/image';
 import { hero } from '@/data/config';
 import { useTheme } from 'next-themes';
 
-export default function Hero() {
+export default function Hero({ hero }) {
   const { theme, setTheme } = useTheme();
+
   return (
-    <div className="mb-20">
-      <div className="flex flex-row items-center justify-between w-full">
-        <div className="w-20 h-20 rounded-full relative overflow-hidden">
-          <Image
-            src="/static/profile.png"
-            layout="fill"
-            objectFit="contain"
-            alt="LeBron"
-          />
-        </div>
+    <div className="mb-5 relative"> {/* Relative positioning context for the sun icon */}
+      <div className="flex justify-center w-full">
+        {/* Title centered with flex container */}
+        <h1 className="text-4.5xl">{"Daniel Dawan"}</h1>
+      </div>
+      
+      {/* Sun icon absolutely positioned to the right */}
+      <div className="absolute right-0 top-1/2 transform -translate-y-1/2">
         <Image
           src="/static/icons/sun.svg"
           width={30}
           height={30}
           alt="Toggle theme"
-          className="cursor-pointer toggleTheme"
+          className="cursor-pointer"
           onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         />
       </div>
-      <h1 className="mt-5 mb-4">{hero.title}</h1>
-      <p className="text-lg">{hero.desc}</p>
     </div>
   );
 }
+
+
+

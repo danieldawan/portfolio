@@ -5,12 +5,12 @@ export default function Stack() {
   return (
     <div>
       <div className="overflow-x-hidden w-full">
-        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-4 md:w-max ">
+        <h2 className="landingSectionTitle max-w-max mx-0 text-left relative mb-3 md:w-max text-2xl">
           {contact.title}
         </h2>
       </div>
       <p>
-        Shoot me an email:{' '}
+        Email contact:{' '}
         <a
           className="dark:text-white text-black transition-colors duration-500"
           href={`mailto:${contact.email}`}
@@ -33,20 +33,7 @@ export default function Stack() {
             />
           </a>
         )}
-        {contact.dribbble && (
-          <a
-            href={`https://dribbble.com/${contact.dribbble}`}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Image
-              src="/static/icons/dribbble.svg"
-              width={20}
-              height={20}
-              alt="Dribbble icon"
-            />
-          </a>
-        )}
+        
         {contact.linkedin && (
           <a
             href={`https://linkedin.com/in/${contact.linkedin}`}
@@ -63,5 +50,6 @@ export default function Stack() {
         )}
       </div>
     </div>
+
   );
 }

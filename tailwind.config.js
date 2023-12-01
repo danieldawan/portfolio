@@ -4,18 +4,22 @@ module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Be Vietnam Pro', 'system-ui', 'sans']
+      sans: ['Helvetica Neue'],
     },
     extend: {
+      fontSize: {
+        '4.5xl': ['2.5rem', { lineHeight: '1' }], // You can adjust the line height as needed
+      },
       colors: {
         dark: '#000',
         white: '#fff',
-        lightText: '#76797d'
-      }
-    }
+        lightText: '#76797d',
+      },
+      // ... any other custom extensions ...
+    },
   },
   variants: {
-    extend: {}
+    extend: {},
   },
-  plugins: []
+  plugins: [],
 };

@@ -1,57 +1,42 @@
 export const meta = {
-  title: 'LeBron James - Web Developer and Designer',
-  description: 'Hey, I\'m LeBron. I\'m a web developer and designer building things people love.'
+  title: 'Daniel Dawan'
 }
 
 export const hero = {
-  title: "Hey there! I'm LeBron James.",
-  desc: "I'm a web developer and designer building things people love."
+  title: "Daniel Dawan",
 };
 
 export const projects = {
-  title: 'My Projects',
-  desc: "Here are some of my favorite projects that I've worked on.",
+  title: 'Projects',
   projects: [
     {
-      title: 'Lakers Official',
-      description: 'Home to the Los-Angeles Lakers',
-      link: 'https://lakers.com',
-      github: ''
+      title: 'NLP Project',
+      description: 'Developed a NLP toolkit for text analysis and synthesis with unigram and bigram models, complete with preprocessing, statistical analysis, and automated text generation capabilities.',
+      github: 'danieldawan/nlp-project'
     },
     {
-      title: 'Cool App',
-      description: 'A cool app!',
-      link: 'https://lebronscoolapp.com',
-      github: 'theking-lbj/cool-app'
-    },
-    {
-      title: 'Another app',
-      description: 'Another app!',
-      link: 'https://anotherlebronapp.com',
-      github: 'theking-lbj/another-app'
+      title: 'Sound Design with Python',
+      description: 'Developed an application that integrates core musical concepts with Python code, enabling automated music composition and enhanced production techniques.',
+      github: 'danieldawan/sound-design-py'
     }
   ]
 };
 
 export const stack = {
-  title: 'My Stack',
+  title: 'Tech Stack',
   stack: [
-    'HTML',
-    'CSS',
+    'Python',
+    'Git',
     'JavaScript',
-    'Typescript',
-    'React',
-    'NextJS',
-    'TailwindCSS',
-    'Firebase',
-    'Git'
+    'SQL',
+    'HTML',
+    'CSS'
   ]
 };
 
 export const contact = {
-  title: 'Contact Me',
-  email: 'lebron@gmail.com',
-  github: 'theking-lbj',
-  dribbble: 'theking-lbj',
-  linkedin: 'theking-lbj'
+  title: 'Contact',
+  email: 'hire@danieldawan.com',
+  github: 'danieldawan',
+  linkedin: 'daniel-dawan'
 };
