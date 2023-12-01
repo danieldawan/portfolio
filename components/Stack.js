@@ -12,7 +12,7 @@ export default function Stack() {
         <div className="w-full flex flex-wrap -m-2">
           {stack.stack.map((item, index) => (
             <span
-              className="border  border-lightText straight-lg m-2 px-3 py-1"
+              className="border  border-lightText straight-lg m-2 px-3 py-1 rounded"
               key={index}
             >
               {item}

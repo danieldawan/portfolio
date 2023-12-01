@@ -15,7 +15,7 @@ export default function Projects() {
           return (
             <div
               key={index}
-              className="p-6 border border-lightText straight-xl mb-4"
+              className="p-6 border border-lightText straight-xl mb-4 rounded"
             >
               <h3>{item.title}</h3>
               <p>{item.description}</p>
