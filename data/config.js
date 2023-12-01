@@ -10,7 +10,7 @@ export const projects = {
   title: 'Projects',
   projects: [
     {
-      title: 'NLP Project',
+      title: 'Natural Language Processing (NLP)',
       description: 'Developed a NLP toolkit for text analysis and synthesis with unigram and bigram models, complete with preprocessing, statistical analysis, and automated text generation capabilities.',
       github: 'danieldawan/nlp-project'
     },

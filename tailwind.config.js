@@ -8,7 +8,7 @@ module.exports = {
     },
     extend: {
       fontSize: {
-        '4.5xl': ['2.5rem', { lineHeight: '1' }], // You can adjust the line height as needed
+        '4.5xl': ['2.5rem', { lineHeight: '1.5' }], // You can adjust the line height as needed
       },
       colors: {
         dark: '#000',
