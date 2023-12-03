@@ -1,5 +1,5 @@
 module.exports = {
-  output: 'standalone',
+  output: 'export',
   assetPrefix: process.env.GITHUB_PAGES ? '/Portfolio' : '',
   reactStrictMode: true
 };
