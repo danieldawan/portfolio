@@ -10,8 +10,8 @@ export const projects = {
   title: 'Projects',
   projects: [
     {
-      title: 'Natural Language Processing (NLP)',
-      description: 'Developed a NLP toolkit for text analysis and synthesis with unigram and bigram models, complete with preprocessing, statistical analysis, and automated text generation capabilities.',
+      title: 'NLP Text Analysis and Synthesis Toolkit',
+      description: 'Developed an NLP toolkit for text processing, featuring unigram and bigram models for statistical analysis and synthesis, incorporating corpus preprocessing, frequency-based analysis, and text generation.',
       github: 'danieldawan/nlp-project'
     },
     {
