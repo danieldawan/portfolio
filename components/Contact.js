@@ -10,7 +10,7 @@ export default function Stack() {
         </h2>
       </div>
       <p>
-        Email contact:{' '}
+        Email:{' '}
         <a
           className="dark:text-white text-black transition-colors duration-500"
           href={`mailto:${contact.email}`}
