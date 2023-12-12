@@ -12,7 +12,7 @@ export const projects = {
     {
       title: 'AI Generative MIDI Sequencer',
       description: 'Developed an application that generates MIDI sequences enabling automated music composition and enhancing production techniques by harnessing the power of coding and artificial intelligence.',
-      github: 'danieldawan/ai-Generative-midi-sequencer'
+      github: 'danieldawan/ai-generative-midi-sequencer'
     },
     {
       title: 'NLP Text Analysis and Synthesis Toolkit',
