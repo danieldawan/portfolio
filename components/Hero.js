@@ -12,27 +12,16 @@ export default function Hero({ hero }) {
       </div>
       
       {/* Sun icon absolutely positioned to the right */}
-      <div className="absolute right-0 top-1/2 transform -translate-y-1/2">
-        {/* Show the sun icon only on desktop */}
-        <style jsx>{`
-          @media (min-width: 768px) {
-            .sun-icon {
-              display: block;
-            }
-          }
-        `}</style>
+      <div className="absolute right-0 top-1/2 transform -translate-y-1/2 md:block hidden">
         <Image
           src="/static/icons/sun.svg"
           width={30}
           height={30}
           alt="Toggle theme"
-          className="cursor-pointer sun-icon"
+          className="cursor-pointer"
           onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         />
       </div>
     </div>
   );
 }
-
-
-
