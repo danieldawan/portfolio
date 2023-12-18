@@ -15,7 +15,7 @@ export const projects = {
       github: 'danieldawan/ai-generative-midi-sequencer'
     },
     {
-      title: 'NLP Text Analysis and Synthesis Toolkit',
+      title: 'NLP Text Analysis and Synthesis',
       description: 'Developed an NLP toolkit for text processing, featuring unigram and bigram models for statistical analysis and synthesis, incorporating corpus preprocessing, frequency-based analysis, and text generation.',
       github: 'danieldawan/nlp-project'
     }
