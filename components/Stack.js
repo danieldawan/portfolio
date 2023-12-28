@@ -9,7 +9,7 @@ export default function Stack() {
             {stack.title}
           </h2>
         </div>
-        <div className="w-full flex md:justify-start justify-center flex-wrap -m-2">
+        <div className="w-full flex md:justify-start justify-center flex-wrap -mt-2 -mb-2">
           {stack.stack.map((item, index) => (
             <span
               className="border  border-lightText straight-lg m-2 px-3 py-1 rounded"
