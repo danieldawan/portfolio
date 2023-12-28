@@ -26,11 +26,15 @@ export const stack = {
   title: 'Tech Stack',
   stack: [
     'Python',
-    'Git',
     'JavaScript',
+    'Git',
     'SQL',
     'HTML',
-    'CSS'
+    'CSS',
+    'PyTorch',
+    'NumPy',
+    'Pandas',
+    'Matplotlib'
   ]
 };
 
