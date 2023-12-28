@@ -33,8 +33,7 @@ export const stack = {
     'CSS',
     'PyTorch',
     'NumPy',
-    'Pandas',
-    'Matplotlib'
+    'Pandas'
   ]
 };
 
