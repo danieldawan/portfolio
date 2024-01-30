@@ -34,12 +34,12 @@ export const stack = {
     'Python',
     'JavaScript',
     'SQL',
+    'Git',
     'HTML',
     'CSS',
     'PyTorch',
     'NumPy',
     'Pandas',
-    'Git',
     'AWS',
     'GCP'
   ]
