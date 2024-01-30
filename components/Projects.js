@@ -20,7 +20,8 @@ export default function Projects() {
               <h3>{item.title}</h3>
               <p>{item.description}</p>
               <div className="flex items-center flex-wrap -m-3 pt-5">
-                {item.github && (
+                {item.github ? (
+                  // If item.github is defined, render the link
                   <a
                     href={`https://github.com/${item.github}`}
                     className="flex items-center py-1 px-3"
@@ -31,12 +32,25 @@ export default function Projects() {
                       src="/static/icons/github.svg"
                       width={18}
                       height={18}
-                      alt="Link icon"
+                      alt="GitHub icon"
                     />
-                    <span className="ml-2  text-lightText  transition-colors duration-500">
+                    <span className="ml-2 text-lightText transition-colors duration-500">
                       {item.github}
                     </span>
                   </a>
+                ) : (
+                  // If item.github is not defined, display the text without a link
+                  <span className="flex items-center py-1 px-3">
+                    <Image
+                      src="/static/icons/github.svg"
+                      width={18}
+                      height={18}
+                      alt="GitHub icon"
+                    />
+                    <span className="ml-2 text-lightText transition-colors duration-500">
+                      Private Repository
+                    </span>
+                  </span>
                 )}
               </div>
             </div>
