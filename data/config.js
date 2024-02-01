@@ -17,7 +17,7 @@ export const projects = {
     {
       title: 'Flight Product Demand Forecasting',
       description:
-        'This datathon challenges participants to create a model that predicts the number of products sold on each Ryanair flight, 10 days before take-off. The model will aim to aid the airline in adjusting provisions, optimizing inventory, and preventing overstocking.'
+        'This datathon, in collaboration with Ryanair, challenges participants to create a model that predicts the number of products sold on each flight, 10 days before take-off. The model will aim to aid the airline in adjusting provisions, optimizing inventory, and preventing overstocking.'
     },
     {
       title: 'NLP Text Analysis and Synthesis',
