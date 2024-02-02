@@ -17,7 +17,7 @@ export const projects = {
     {
       title: 'Flight Product Demand Forecasting',
       description:
-        'This datathon, in collaboration with Ryanair, challenges participants to create a model that predicts the number of products sold on each flight, 10 days before take-off. The model will aim to aid the airline in adjusting provisions, optimizing inventory, and preventing overstocking.'
+        'This datathon, in collaboration with Ryanair, challenges participants to create a model that predicts the number of products sold on each flight, 10 days before take-off. The model will aim to aid the airline in adjusting provisions, optimising inventory, and preventing overstocking.'
     },
     {
       title: 'NLP Text Analysis and Synthesis',
@@ -40,6 +40,7 @@ export const stack = {
     'PyTorch',
     'NumPy',
     'Pandas',
+    'Scikit-learn',
     'AWS',
     'GCP'
   ]
