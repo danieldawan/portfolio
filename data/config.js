@@ -40,6 +40,7 @@ export const stack = {
     'PyTorch',
     'NumPy',
     'Pandas',
+    'Flask',
     'Scikit-learn',
     'AWS',
     'GCP'
