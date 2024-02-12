@@ -40,16 +40,15 @@ export const stack = {
     'JavaScript',
     'SQL',
     'Git',
-    'HTML',
-    'CSS',
+    'HTML + CSS',
     'PyTorch',
     'NumPy',
     'Pandas',
-    'Flask',
-    'React',
     'Scikit-learn',
+    'Flask',
     'AWS',
-    'GCP'
+    'GCP',
+    'React'
   ]
 };
 
