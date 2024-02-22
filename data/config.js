@@ -27,7 +27,7 @@ export const projects = {
     {
       title: 'NLP Text Analysis and Synthesis',
       description:
-        'Developed an NLP toolkit for text processing, featuring unigram and bigram models for statistical analysis and synthesis, incorporating corpus preprocessing, frequency-based analysis, and text generation. The toolkit also streamlines the processing of large text datasets.',
+        'Developed an NLP toolkit for text processing, featuring unigram, bigram and trigram models for statistical analysis and synthesis, incorporating corpus preprocessing, frequency-based analysis, and text generation. The toolkit also streamlines the processing of large text datasets.',
       github: 'danieldawan/nlp-project'
     }
   ]
