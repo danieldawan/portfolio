@@ -43,7 +43,7 @@ export const stack = {
     'Flask',
     'AWS',
     'GCP',
-    'React'
+    'Oracle Cloud'
   ]
 };
 
