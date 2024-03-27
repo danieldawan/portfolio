@@ -17,7 +17,7 @@ export const projects = {
     {
       title: 'Stock Portfolio Tracker',
       description:
-        "Designed an online portfolio stock tracker using JavaScript and React components for the front-end, and Python for the back-end. The application enables accurate tracking of your investments by utilizing Alpha Vantage's stock data.",
+        'Stock portfolio tracker for the management and analysis of stock investments. Users can add and remove stocks to simulate portfolio adjustments and get insights into the performance of investments through comprehensive charts and tables, all within a user-friendly interface designed for straightforward navigation.',
       github: 'danieldawan/stock-portfolio-tracker'
     },
     {
